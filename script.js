@@ -124,7 +124,7 @@ function checkBlank(input, placing) {
         flag = false;
     } else {
         para.innerText = '';
-        input.style.borderColor = 'revert';
+        input.style.borderColor = '';
     }
     return flag;
 }
@@ -139,8 +139,8 @@ function checkName(input, placing) {
         flag = false;
     } else {
         para.innerText = '';
-        input.style.borderColor = 'revert';
-        input.style.color = 'revert';
+        input.style.borderColor = '';
+        input.style.color = '';
     }
     return flag;
 }
@@ -155,8 +155,8 @@ function checkDigit(cardNum, placing) {
         flag = false;
     } else {
         para.innerText = '';
-        cardNum.style.borderColor = 'revert';
-        cardNum.style.color = 'revert';
+        cardNum.style.borderColor = '';
+        cardNum.style.color = '';
     }
     return flag;
 }
@@ -171,8 +171,8 @@ function checkCVC(cardNum, placing) {
         flag = false;
     } else {
         para.innerText = '';
-        cardNum.style.borderColor = 'revert';
-        cardNum.style.color = 'revert';
+        cardNum.style.borderColor = '';
+        cardNum.style.color = '';
     }
     return flag;
 }
@@ -187,8 +187,8 @@ function checkYear(cardNum, placing) {
         flag = false;
     } else {
         para.innerText = '';
-        cardNum.style.borderColor = 'revert';
-        cardNum.style.color = 'revert';
+        cardNum.style.borderColor = '';
+        cardNum.style.color = '';
     }
     return flag;
 }
@@ -203,8 +203,8 @@ function checkMonth(cardNum, placing) {
         flag = false;
     } else {
         para.innerText = '';
-        cardNum.style.borderColor = 'revert';
-        cardNum.style.color = 'revert';
+        cardNum.style.borderColor = '';
+        cardNum.style.color = '';
     }
     return flag;
 }
@@ -219,8 +219,8 @@ function checkCardNumLength(cardNum, placing) {
         flag = false;
     } else {
         para.innerText = '';
-        cardNum.style.borderColor = 'revert';
-        cardNum.style.color = 'revert';
+        cardNum.style.borderColor = '';
+        cardNum.style.color = '';
     }
     return flag;
 }
